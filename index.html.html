@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+       <h1>Your Fortune Awaits...</h1>
+    </header>
+    
+    <section class="name">
+        <form id="fortuneForm">
+            <label for="userName">Enter Your Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <label for="userAge">Enter Your Age:</label>
+            <input type="text" id="userAge" name="userAge" required>
+
+            <label for="userSign">Enter Your Sign:</label>
+            <select id="userSign" name="userSign" required>
+                <option value="">Select Your Sign</option>
+                <option value="Aries">Aries</option>
+                <option value="Taurus">Taurus</option>
+                <option value="Gemini">Gemini</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Leo">Leo</option>
+                <option value="Virgo">Virgo</option>
+                <option value="Libra">Libra</option>
+                <option value="Scorpio">Scorpio</option>
+                <option value="Sagittarius">Sagittarius</option>
+                <option value="Capricorn">Capricorn</option>
+                <option value="Aquarius">Aquarius</option>
+                <option value="Pisces">Pisces</option>
+            </select>
+            
+            <button type="submit">Reveal Your Fortune</button>
+        </form>
+        <p id="fortuneResult"></p>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
